@@ -1,4 +1,8 @@
 #esercizi in python
+import os
+def pulisci_terminale():
+    os.system('cls' if os.name == 'nt' else 'clear')
+pulisci_terminale()
 print("questa è la calcolatrice di Loris")
 num1 = float(input("inserisci il primo numero: "))
 num2 = float(input("inserisci il secondo numero: "))
